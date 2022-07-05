@@ -1,0 +1,51 @@
+body{
+  background-image: url(images/background12.png);
+}
+
+ol{
+  text-align: center;
+}
+
+.table{
+  font-size: 30px;
+}
+
+.text{
+  text-align-last: center;
+  font-size: medium;
+  float: center;
+}
+
+.button{
+  width: 2cm;
+  background-color: aquamarine;
+  border: 2cm;
+  color: black;
+  padding: 15px 10px;
+  text-align: center;
+  font-size: large;
+  border-radius: 10px;
+}
+
+.newButton{
+  left: 100px;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.newButton:hover {background-color: #3e8e41}
+
+.newButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
